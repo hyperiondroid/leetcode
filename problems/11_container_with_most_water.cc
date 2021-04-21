@@ -11,7 +11,6 @@ public:
             
             int v = min(height[l],height[r])*(r-l);
             if(vol < v) vol = v;
-            //cout<<"l: "<<height[l]<<" r: "<<height[r]<<" v: "<<v<<" vol: "<<vol<<endl;
             if(height[l]<height[r]) {
                 int c = height[l];
                 l++;
