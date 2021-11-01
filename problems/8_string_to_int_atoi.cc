@@ -17,12 +17,6 @@ public:
             i++;
         }
         
-        // if(is_neg) {
-        //     cout << "-";
-        // }else{
-        //     cout<<"+";
-        // }
-        
         int num = 0;
         int x = i;
         int len = 0;
